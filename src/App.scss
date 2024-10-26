@@ -1,0 +1,26 @@
+#root {
+	display: flex;
+	background: #888;
+	width: 100%;
+	height: 100vh;
+
+	#container {
+		background-color: #fff;
+		margin: 3rem;
+		position: relative;
+		border: 1px solid black;
+
+		#toolbar {
+			border-bottom: 1px solid #eee;
+			padding: 0.5rem;
+			display: flex;
+			justify-content: space-between;
+		}
+
+		canvas {
+			position: absolute;
+			background: 'transparent';
+			border: '1px solid black';
+		}
+	}
+}
