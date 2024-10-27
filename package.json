@@ -3,14 +3,11 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "https://prionkor.github.io/illustrator-pentool-clone/",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc -b && vite build",
 		"lint": "eslint .",
-		"preview": "vite preview",
-		"predeploy": "tsc -b && vite build",
-		"deploy": "gh-pages -d build"
+		"preview": "vite preview"
 	},
 	"dependencies": {
 		"react": "^18.3.1",

@@ -32,7 +32,7 @@ export default function App() {
 	const [anchors, setAnchors] = useState<Anchor[]>([]);
 	const [isDragging, setIsDragging] = useState<boolean>(false);
 	const [mousePosition, setMousePosition] = useState<Point | null>(null);
-	const [currentAnchor, setCurrentAnchor] = useState<Anchor | null>(null);
+	// const [currentAnchor, setCurrentAnchor] = useState<Anchor | null>(null);
 
 	const onMouseDown = (e: MouseEvent) => {
 		setIsDragging(true);
