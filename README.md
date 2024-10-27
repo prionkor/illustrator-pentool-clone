@@ -6,5 +6,8 @@ Very simple clone of the pen tool. It doesn't have all the features but demonstr
 
 # How to Use?
 
-1. Clone this reponsitory in your machine.
-2. Run `yarn & yarn dev`
+1. Clone this reponsitory in your machine `git clone https://github.com/prionkor/illustrator-pentool-clone.git`
+2. Run `cd illustrator-pentool-clone`
+3. Run `yarn & yarn dev`
+
+Visit `http://localhost:5174` for the app.
